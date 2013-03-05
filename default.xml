@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-10.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  
+  <project name="Chad0989/device_htc_vigor" path="device/htc/vigor" />
+  <project name="Chad0989/android_device_htc_msm8660-common" path="device/htc/msm8660-common" />
+  <project path="frameworks/av" name="Evervolv/android_frameworks_av" revision="jellybean" />
+  <project path="frameworks/native" name="Chad0989/android_frameworks_native" />
+  <project path="kernel/htc/vigor-3.0" name="Chad0989/vigor_aosp_kernel" revision="jellybean" />
+  <project name="Chad0989/vendor_htc_vigor" path="vendor/htc/vigor" />
+  
+</manifest>
