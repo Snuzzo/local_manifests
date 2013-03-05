@@ -10,3 +10,7 @@ repo init -u git://github.com/TheBr0ken/Vigor_Tree.git
 Then to sync up:
 
 repo sync
+
+If your building for anything other than CM you must run this command:
+
+rm device/htc/vigor/overlay/packages/apps/Torch/res/values/config.xml
