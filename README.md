@@ -15,13 +15,17 @@ If your building for anything other than CM you must run this command:
 
     rm device/htc/vigor/overlay/packages/apps/Torch/res/values/config.xml
 
-Building with Linaro requires you to change 2 lines in build/envsetup.sh
+Building ROM/Kernel with Linaro requires you to change 2 lines in build/envsetup.sh
 
 Go into your "build" directory:
 
     cd build
 
-edit envsetup.sh and under:
+edit envsetup.sh 
+
+To build the ROM with linaro:
+
+under
 
     ANDROID_EABI_TOOLCHAIN
 
@@ -33,7 +37,9 @@ to:
 
     arm) toolchaindir=linaro/bin
     
-also under:
+To build the Kernel with linaro ( must use gcc/g++ 4.6 and up, kernel must have linaro support ):
+
+under:
 
     ARM_EABI_TOOLCHAIN ARM_EABI_TOOLCHAIN_PATH
     
@@ -45,6 +51,7 @@ to:
 
     toolchaindir=linaro/bin
     
+
 Build AOSP as normal
 
 
