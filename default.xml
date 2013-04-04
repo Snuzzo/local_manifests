@@ -23,7 +23,7 @@
   <project path="frameworks/native" name="Chad0989/android_frameworks_native" />
   <project path="hardware/qcom/media" name="TheBr0ken/android_hardware_qcom_media" />
   <project path="kernel/htc/vigor-3.0" name="Chad0989/vigor_aosp_kernel" revision="jellybean" />
-  <project path="prebuilts/gcc/linux-x86/linaro" name="mbobino/android-linaro" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/linaro" name="VigorCM9/linaro" revision="13.02" />
   <project name="Chad0989/vendor_htc_vigor" path="vendor/htc/vigor" />
   
 </manifest>
