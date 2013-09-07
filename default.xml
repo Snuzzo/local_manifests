@@ -17,11 +17,11 @@
            sync-j="4" />
 
   
-  <project path="device/htc/vigor" name="IamTheOneTheyCallNeo/device_htc_vigor" />
-  <project path="device/htc/msm8660-common" name="IamTheOneTheyCallNeo/android_device_htc_msm8660-common" />
-  <project path="kernel/htc/vigor-3.0" name="IamTheOneTheyCallNeo/vigor_aosp_kernel" />
-  <project path="hardware/qcom/display-legacy" name="IamTheOneTheyCallNeo/android_hardware_qcom_display-legacy" />
-  <project path="hardware/qcom/media-legacy" name="IamTheOneTheyCallNeo/android_hardware_qcom_media-legacy" />
-  <project path="vendor/htc/vigor" name="IamTheOneTheyCallNeo/vendor_htc_vigor" /> 
+  <project path="device/htc/vigor" name="IAmTheOneTheyCallNeo/device_htc_vigor" />
+  <project path="device/htc/msm8660-common" name="IAmTheOneTheyCallNeo/android_device_htc_msm8660-common" />
+  <project path="kernel/htc/vigor-3.0" name="IAmTheOneTheyCallNeo/vigor_aosp_kernel" />
+  <project path="hardware/qcom/display-legacy" name="IAmTheOneTheyCallNeo/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/media-legacy" name="IAmTheOneTheyCallNeo/android_hardware_qcom_media-legacy" />
+  <project path="vendor/htc/vigor" name="IAmTheOneTheyCallNeo/vendor_htc_vigor" /> 
   
 </manifest>
