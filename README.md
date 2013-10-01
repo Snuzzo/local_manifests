@@ -1,13 +1,14 @@
-Vigor_Tree
-==========
+local_manifests
+===============
 
-Device Tree for HTC Rezound needed for building AOSP
+Device Tree for HTC Rezound needed to add support for building AOSP
 
-To initialize your local repository using the Vigor Device trees, use a command like this:
+Clone this to any aosp build that does not natively support this device. Must be cloned to .repo to properly sync
 
-    repo init -u git://github.com/TheBr0ken/Vigor_Tree.git
-
-Then to sync up:
+    cd .repo
+    git clone http://github.com/TheBr0ken/local_manifest.git
+    
+Then sync:
 
     repo sync
 
